@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none
+}
+
+body{
+    background-color:#152547 ;
+}
+
+nav .nav-boshi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+
+}
+
+nav  .q{    
+    display: flex;
+    gap: 60px;
+}
+
+nav .nav-boshi li a{
+    color: white;
+    font-weight: 600;
+
+    
+}
+
+nav .nav-boshi li button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background:#5785e7ca;
+    margin-top: -10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 145px;
+}
+
+main p{
+    width: 500px;
+    color: silver;
+    margin-top: 30px;
+    margin-left: 145px;
+    
+    
+}
+
+main button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+     background:#5785e7ca;
+     color: white;
+     margin-left: 145px;
+     margin-top: 30px;
+     cursor: pointer;
+}
+
+
+.biril h1{
+    font-size: 40px;
+    color: white;
+    margin-left: 650px;
+    font-family: sans-serif;
+
+}
+
+.biril p{
+    width: 520px;
+    color: white;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.cart-one{
+    display: grid;
+   
+   margin-left: 50px;
+   margin-top: 40px;
+   grid-template-columns: 1fr 1fr 1fr;
+ 
+    
+}
+
+.one-cart{
+    width: 350px;
+    background: white;
+    border-radius: 20px;
+    height: 300px;
+    padding-top: 20px;
+    background: rgb(41, 58, 95);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+
+.one-cart h1{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 10px;
+    color: white;
+}
+
+.one-cart img{
+    margin-left: 140px;
+}
+
+.one-cart p{
+    width: 310px;
+    margin-left: 25px;
+    margin-top: 20px;
+    line-height: 1.3;
+    color: white;
+}
+
+.one-cart h2{
+    margin-left: 120px;
+    padding-top: 20px;
+    color:white;
+    font-size: 20px;
+}
+
+
+.cart-two{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+
+.cart-two h1{
+    width: 400px;
+    color: white;
+    
+}
+
+
+.cart-two p{
+    width: 500px;
+    color: white;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+.cart-two button{
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(164, 48, 160);
+    margin-top: 25px;
+    color: white;
+    cursor: pointer;
+    margin-left:10px;
+}
+
+
+.ikili{
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+.ikili p{
+    width: 400px;
+    color: white;
+    margin-top: 20px;
+}
+
+.ikili h1{  
+    margin-left: 80px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.cart-three{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+
+.three-cart{
+    width: 250px;
+    background: rgb(61, 85, 137) ;
+    border-radius: 20px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.three-cart img{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.three-cart h2{
+    margin-top: -40px;
+    margin-left: 60px;
+    color: white;
+}
+
+
+.three-cart p{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+}
+
+
+.alohida{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 1350px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+.aa{
+    width: 800px;
+    background: none;
+    margin-left: 240px;
+    margin-top: 30px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid rgb(41, 58, 95);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.alohida h3 {
+    margin-right: 580px;
+    
+color: white;
+
+}
+
+
+ .aa button{
+    margin-left: 640px;
+    width: 150px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 30px;
+    border: none;
+    background: rgba(59, 59, 232, 0.841);
+    color: white;
+    cursor: pointer;
+}
+
+.alohida p{
+    padding-top: 20px;
+    color: white;
+}
+
+.alohida h1{
+         font-size: 45px; 
+    color: white;
+}
+
+
+footer{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.footer-w {
+  
+    line-height: 2;
+}
+
+.footer-w a{
+    color: white;
+}
+
+.footer-q{
+    line-height: 2;
+}
+
+
+
+
+
+
+
